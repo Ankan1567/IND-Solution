@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(img/Blog1.jpeg);
+    background-color: burlywood;
+}
+
+nav{
+    position: sticky;
+    top: 0%;
+    list-style: none;
+    text-align: center;
+    background-color: rgb(92, 97, 97);
+    border-radius: 10px;
+    padding: 2%;
+}
+
+li{
+    display: inline-block;
+    margin-left: 5%;
+    position: relative;
+    right: 5%;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(255, 251, 252);
+}
+
+li a:hover{
+    color: red;
+    font-size: 10%;
+}
+
+nav img{
+    position: relative;
+    right: 40%;
+    height: 10vh;
+    border-radius: 80px;
+}
+
+/* in this area product option has started */
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.context1{
+    width: 49%;
+    background-color: brown;
+    color: aliceblue;
+    text-align: center;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.context1 a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.context1:hover{
+    color: green;
+    zoom: 200%;
+}
+
+.context2{
+    width: 49%;
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.context2 a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.context2:hover{
+    color: green;
+    zoom: 150%;
+}
+
+.context3{
+    width: 49%;
+    background-color: rgb(12, 143, 121);
+    color: aliceblue;
+    text-align: center;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.context3 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.context3:hover{
+    color: green;
+    zoom: 150%;
+}
+
+.context4{
+    width: 49%;
+    background-color: rgb(71, 5, 116);
+    color: aliceblue;
+    text-align: center;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.context4 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.context4:hover{
+    color: green;
+    zoom: 150%;
+}
+
+.choose{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose h2{
+    color: rgb(224, 34, 34);
+    transition: ease-in-out;
+}
+
+/* @keyframes chooseAnimate{
+    form{
+        width:90%;
+    }
+    to{
+        width: 30%;
+    }
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+#headname{
+    color: aliceblue;
+    position: relative;
+    bottom: 10vh;
+    font-family: 'Pacifico', cursive;
+}
+
+nav img:hover{
+    zoom: 150%;
+}
+
+footer{
+    background-color: rgb(61, 59, 59);
+    color: aliceblue;
+    border-radius: 10px;
+    border: 2px dotted red;
+    text-align: center;
+    position: relative;
+    top: 30vh;
+}
+
+#todaydate{
+    text-align: center;
+    color: yellow;
+}

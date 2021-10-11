@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* this is section of navigation and heading */
+
+nav{
+    background-color: red;
+    border-radius: 15px;
+    border: 2px solid black;
+    width: 99%;
+    padding: 1%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+nav h1{
+    text-align: center;
+    color:white;
+    font-family: 'Pacifico', cursive;
+}
+
+ul{
+    background-color: black;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px dotted green;
+}
+
+ul li{
+    display: inline-block;
+    margin-left: 8%;
+}
+
+ul li a{
+    color: white;
+    pointer-events: stroke;
+    list-style: none;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: yellow;
+}
+
+/* this is section of contents*/
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image1{
+    width: 38vw;
+    height: 73vh;
+    border-radius: 15px;
+    border: 3px red dotted;
+    float: left;
+}
+
+.image2{
+    width: 38vw;
+    height: 73vh;
+    border-radius: 15px;
+    border: 3px red dotted;
+    float: left;
+}
+
+.para{
+    cursor: wait;
+    cursor: auto;
+    width: 50vw;
+}
+
+.para:hover{
+    color: red;
+}
+
+footer{
+    background-color: rgb(94, 90, 90);
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid yellow;
+}

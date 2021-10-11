@@ -1,0 +1,75 @@
+/* all imports are here */
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+nav{
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    width: 100%;
+    text-align:right;
+    background-image: url(https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px dotted black;
+}
+
+.option{
+        display: inline-block;
+        margin-left: 2%;
+        position: relative;
+        bottom: 5vh;
+        right: 1%;
+}
+
+    .select{
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+}
+
+.select:hover{
+    color: red;
+    background-color: rgb(203, 238, 203);
+}
+
+#govlogo{
+    width: 3%;
+    position: relative;
+    right: 90%;
+    top: 3vh;
+}
+
+.firstcontent{
+    background-color: rgb(248, 250, 250); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstblog, .secondblog, .thirdblog, .fourthblog, .fifthblog{
+    width: 99%;
+    height: 55vh;
+    border-radius: 20px;
+}
+
+#heading{
+    position: relative;
+    right: 40%;
+    bottom: 11vh;
+    color: coral;
+    font-family: 'Allison', cursive;
+    font-size: 300%;
+}
+
+table{
+    border-radius: 20px;
+}
+
+#footer{
+    text-align: center;
+    color: aliceblue;
+    background-color: #000;
+}
+
+#powered{
+    width: 99%;
+    height: 12vh;
+}
