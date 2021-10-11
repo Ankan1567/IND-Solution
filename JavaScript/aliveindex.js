@@ -94,4 +94,17 @@ function DeleteStorage() {
 
 }
 
+function playmusic() {
+
+    let Music = new Audio('IndexMusic.mp3');
+
+    Music.play();
+
+    console.log("The Music is Now Playing")
+
+    alert("This is the only website, that has background music playing feature")
+}
+
+setTimeout(playmusic, 1000)
+
 setTimeout(DeleteStorage, 300000)
