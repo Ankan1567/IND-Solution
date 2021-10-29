@@ -138,6 +138,31 @@ nav img{
     zoom: 150%;
 }
 
+.context6{
+
+    width: 49%;
+    background-color: rgb(34, 134, 92);
+    color: aliceblue;
+    text-align: center;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    }
+    
+    .context6 a{
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    }
+    
+    .context5:hover{
+    
+    color: green;
+    zoom: 150%;
+    }
+
 .choose{
     display:flex;
     justify-content: center;

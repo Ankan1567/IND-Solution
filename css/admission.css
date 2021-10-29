@@ -50,7 +50,13 @@ form{
     border-radius: 10px;
     text-align: center;
 }
-.submit{
+#submit{
+    border-radius: 10px;
+    background-color: rgb(145, 145, 224);
+    color: aliceblue;
+    visibility: hidden;
+}
+.sucbutton{
     border-radius: 10px;
     background-color: rgb(145, 145, 224);
     color: aliceblue;

@@ -48,3 +48,18 @@ nav{
 #paymentsuccessful{
     width: 100%;
 }
+
+footer{
+    background-color: rgb(61, 59, 59);
+    color: aliceblue;
+    border-radius: 10px;
+    border: 2px dotted red;
+    text-align: center;
+    position: relative;
+    top: 30vh;
+}
+
+#todaydate{
+    text-align: center;
+    color: yellow;
+}
